@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './index.module.less';
 
-const Lazy = () => {
+const Lazy: React.FC = () => {
   return (
-    <div>
+    <div className={styles['lazy-container']}>
       Loading...
     </div>
   );

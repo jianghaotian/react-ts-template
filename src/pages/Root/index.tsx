@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './index.module.less';
 
-const Root = () => {
+const Root: React.FC = () => {
   return (
-    <div>
+    <div className={styles['root-container']}>
       Root
     </div>
   );

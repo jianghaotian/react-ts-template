@@ -5,7 +5,7 @@ import routes from './routes';
 
 import Lazy from '@/pages/Lazy';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Suspense fallback={<Lazy />}>{renderRoutes(routes)}</Suspense>

@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './index.module.less';
 
-const Login = () => {
+const Login: React.FC = () => {
   return (
-    <div>
+    <div className={styles['login-container']}>
       Login
     </div>
   );
